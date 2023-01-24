@@ -1,0 +1,61 @@
+.intro{
+    background-color: #00524B !important;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px !important;
+    background-image:url('../images/intro-bg.svg');
+    background-size:100% 100%;
+}
+
+@font-face {
+    font-family: belgan;
+    src: url('./belgan.otf');
+  }
+
+.dev-name-1{
+    font-size: 150px;
+    font-family: belgan !important;
+    color:rgb(219, 14, 14);
+}
+
+.dev-name-2{
+    font-size: 150px;
+    font-family: belgan !important;
+    color:rgb(230, 230, 24);
+}
+
+.intro p{
+    color: rgba(255, 255, 255, 0.822)
+}
+
+.get-started{
+    background-color: #00524B !important;
+    padding: 10px 25px;
+    border: none;
+    color: white !important;
+}
+
+.hire-me{
+    background-color: white !important;
+    padding: 10px 25px;
+    border: none;
+    color: black !important;
+}
+
+svg {
+    width: 100%;
+  }
+
+@media only screen and (max-width: 800px){
+    .dev-name-1{
+        font-size: 70px;
+        font-family: belgan !important;
+        color:rgb(219, 14, 14);
+    }
+    
+    .dev-name-2{
+        font-size: 70px;
+        font-family: belgan !important;
+        color:rgb(230, 230, 24);
+    }
+}
